@@ -1,0 +1,151 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+  background-color: #20202d;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100px;
+}
+
+.display-block {
+  display: block;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-22 {
+  margin-top: 22px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mt-250 {
+  margin-top: 250px;
+}
+
+.fz-24 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  white-space: nowrap;
+}
+
+.yellow {
+  color: #ffbb01;
+}
+
+.black {
+  color: #000000;
+}
+
+.yellow-btn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdde76), to(#ffbb01));
+  background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+  -webkit-box-shadow: 0px 4px 0px #b68500;
+          box-shadow: 0px 4px 0px #b68500;
+  border-radius: 5px 5px 10px 10px;
+  padding: 20px 40px;
+  color: #2e2e30;
+  cursor: pointer;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-about__info {
+  width: 420px;
+}
+
+.header-about__foto {
+  border: #ffffff solid 10px;
+  border-radius: 50%;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.work-blok__bloks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.work-blok__element {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
