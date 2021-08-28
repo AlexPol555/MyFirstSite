@@ -11,6 +11,7 @@ body {
 .container {
   max-width: 940px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .social-list {
@@ -271,6 +272,18 @@ h2 {
   position: relative;
 }
 
+.application::after {
+  content: "";
+  position: absolute;
+  width: 380px;
+  height: 409px;
+  top: 5px;
+  left: -5px;
+  background: #ffc41d;
+  z-index: -1;
+  border-radius: 5px;
+}
+
 .application__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -282,7 +295,7 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 310px;
+  max-width: 310px;
   margin: 0 auto;
   text-align: center;
 }
@@ -302,23 +315,11 @@ h2 {
   width: 100%;
 }
 
-.application::after {
-  content: "";
-  position: absolute;
-  width: 380px;
-  height: 409px;
-  top: 5px;
-  left: -5px;
-  background: #ffc41d;
-  z-index: -1;
-  border-radius: 5px;
-}
-
 .connection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 850px;
+  max-width: 850px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -332,7 +333,7 @@ h2 {
 }
 
 .contacts {
-  width: 350px;
+  max-width: 350px;
   margin-top: 40px;
 }
 

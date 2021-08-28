@@ -10,6 +10,7 @@ body {
 .container {
    max-width: 940px;
    margin: 0 auto;
+   padding: 0 15px;
 }
 .social-list {
    display: flex;
@@ -195,11 +196,22 @@ h2 {
    box-shadow: -5px 5px 0px #ffc41d;
    border-radius: 5px;
    position: relative;
+   &::after {
+      content: "";
+      position: absolute;
+      width: 380px;
+      height: 409px;
+      top: 5px;
+      left: -5px;
+      background: #ffc41d;
+      z-index: -1;
+      border-radius: 5px;
+   }
    &__wrapper {
       display: flex;
       align-items: center;
       flex-direction: column;
-      width: 310px;
+      max-width: 310px;
       margin: 0 auto;
       text-align: center;
    }
@@ -217,21 +229,10 @@ h2 {
       padding: 18px 20px 18px 40px;
       width: 100%;
    }
-   &::after {
-      content: "";
-      position: absolute;
-      width: 380px;
-      height: 409px;
-      top: 5px;
-      left: -5px;
-      background: #ffc41d;
-      z-index: -1;
-      border-radius: 5px;
-   }
 }
 .connection {
    display: flex;
-   width: 850px;
+   max-width: 850px;
    justify-content: space-between;
    margin-bottom: 150px;
 }
@@ -243,7 +244,7 @@ h2 {
 }
 
 .contacts {
-   width: 350px;
+   max-width: 350px;
    margin-top: 40px;
    &__form {
       display: flex;
