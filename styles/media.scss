@@ -5,9 +5,15 @@
    h1 {
       white-space: normal;
    }
-   .mw- {
-      &300 {
-         width: 300px;
+   .work-blok {
+      align-items: flex-start;
+      &__element {
+         max-width: 210px;
+      }
+   }
+   .last {
+      &__content {
+         max-width: 320px;
       }
    }
 }
@@ -20,15 +26,17 @@
       text-align: center;
    }
    .header-about {
-      display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
       &__info {
          order: 2;
+         max-width: 310px;
       }
       &__img {
          order: 1;
+         width: 100%;
+         height: 100%;
       }
       p {
          width: 100%;
@@ -39,7 +47,6 @@
    }
    .work-blok {
       flex-direction: column;
-      align-items: center;
       margin-top: 60px;
       &__element {
          max-width: 100%;
@@ -72,7 +79,6 @@
    .connection {
       margin-top: 50px;
       margin-bottom: 50px;
-      margin-left: 50px;
       flex-direction: column;
    }
    .application {
@@ -86,6 +92,7 @@
    }
    .contacts {
       margin-top: 65px;
+      margin-left: 50px;
       &__form {
          flex-direction: column;
       }

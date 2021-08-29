@@ -5,8 +5,16 @@
   h1 {
     white-space: normal;
   }
-  .mw-300 {
-    width: 300px;
+  .work-blok {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .work-blok__element {
+    max-width: 210px;
+  }
+  .last__content {
+    max-width: 320px;
   }
 }
 
@@ -18,9 +26,6 @@
     text-align: center;
   }
   .header-about {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -34,11 +39,14 @@
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    max-width: 310px;
   }
   .header-about__img {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+    width: 100%;
+    height: 100%;
   }
   .header-about p {
     width: 100%;
@@ -51,9 +59,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     margin-top: 60px;
   }
   .work-blok__element {
@@ -92,7 +97,6 @@
   .connection {
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 50px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -109,6 +113,7 @@
   }
   .contacts {
     margin-top: 65px;
+    margin-left: 50px;
   }
   .contacts__form {
     -webkit-box-orient: vertical;
